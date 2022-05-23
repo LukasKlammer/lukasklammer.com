@@ -3,5 +3,5 @@
 <p>This is a Test</p>
 
 <div class="slideshow-container">
-    <img class="img-slideshow" src="assets/img/{{ images[currentImage] }}" alt="">
+    <img *ngIf="showImage" class="img-slideshow" src="assets/img/{{ images[currentImage] }}" alt="">
 </div>
