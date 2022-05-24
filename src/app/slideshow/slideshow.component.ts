@@ -6,8 +6,6 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./slideshow.component.scss']
 })
 export class SlideshowComponent implements OnInit {
-
-  title = 'lukasklammer.com';
   // hier kann JavaScript eingefügt werden
   images = ['innsbruck.jpg', 'it.jpg', 'science.jpg'];
   headlines = ['Graduated at the university of Innsbruck', 'love informatics', 'Science is my world'];
