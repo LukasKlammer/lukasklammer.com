@@ -7,8 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SlideshowComponent implements OnInit {
   // hier kann JavaScript eingefügt werden
-  images = ['innsbruck.jpg', 'it.jpg', 'science.jpg'];
-  headlines = ['Graduated at the university of Innsbruck', 'love informatics', 'Science is my world'];
+  images = ['uni_innsbruck.jpg', 'coding.jpg', 'team.jpg'];
+  headlines = ['Graduated at the university of Innsbruck', 'love coding', 'good work is team work'];
   currentImage = 0;
   showImage = true;
 
